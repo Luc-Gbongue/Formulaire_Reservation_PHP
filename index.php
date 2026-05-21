@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RESERVATION_PHP</title>
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
 <body>
     <div class="container">
@@ -34,8 +34,8 @@
              <input type="time" name="heure" required>
             
             <!-- Contact client-->
-             <input type="tel" name="contact" placehoder="Entrez votre numéro de téléphone" required>
-
+             <input type="phone" name="contact" placeholder="Entrez votre numéro de téléphone" required>
+            <br>
             <!-- Bouton envoyer -->
              <button type="submit">Reserver</button>
 
