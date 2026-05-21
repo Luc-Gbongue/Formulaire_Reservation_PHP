@@ -1,3 +1,19 @@
+<?php 
+
+// Verifie si le formulaire est envoyé
+if($_SERVER["REQUEST_METHOD"] === "POST"){
+
+// Recupère les données envoyées
+$nom = $_POST["nom"];
+$email = $_POST["email"];
+$service = $_POST["service"];
+$date = $_POST["date"];
+$heure = $_POST["heure"];
+$contact = $_POST["contact"];
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -34,7 +50,7 @@
              <input type="time" name="heure" required>
             
             <!-- Contact client-->
-             <input type="phone" name="contact" placeholder="Entrez votre numéro de téléphone" required>
+             <input type="tel" name="contact" placeholder="Entrez votre numéro de téléphone" required>
             <br>
             <!-- Bouton envoyer -->
              <button type="submit">Reserver</button>
