@@ -10,6 +10,8 @@ $service = $_POST["service"];
 $date = $_POST["date"];
 $heure = $_POST["heure"];
 $contact = $_POST["contact"];
+
+echo("Reservation enregistrée avec succès!")
 }
 
 ?>
